@@ -34,7 +34,8 @@ else:
 # TODO:
 # Make pawns stop at 2nd to last row, maximize capturing for weaker bots
 #   Means we need to make overlord consider pawns at 2nd to last row to be ones that reach end already
-#
+# Make pawns use pawns ahead of them as scouts. We assume that every pawn ahead of us has no enemies that can capture 
+# it directly
 def run():
     global team, endIndex, index, board_size, opp_team, forward
     row, col = get_location()
@@ -108,8 +109,14 @@ def run():
                         pawnAtEndRowOfSameLine = True
             
     # determine if the pawn has enough support to be reckless
+    # if enough pawns right behind that cup this pawn, go forward
+    # unintentionally causes col 0 and 15 to be passive, good behavior
     if (nearPawnsBehind >= 5): 
         hasSupport = True
+    # if near end row, be a little more reckless
+    if (abs(row - endIndex) <= 3):
+        if (nearPawnsBehind >= 4):
+            hasSupport = True
 
     # try catpuring pieces
     if check_space_wrapper(row + forward, col + 1, board_size) == opp_team:

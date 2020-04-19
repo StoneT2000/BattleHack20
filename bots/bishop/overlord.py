@@ -71,32 +71,42 @@ def run():
                 enemyCountsPerCol[str(j)] = enemyCountsPerCol[str(j)] + 1
 
     minCols = sorted(friendCountsPerCol.items() , key=lambda x: (x[1]) )
+
+    # minEnemyCols[0][0] is col index with least enemies, minEnemeyCols[0][1] is number of enemy pawns on that col
     minEnemyCols = sorted(enemyCountsPerCol.items() , key=lambda x: (x[1]) )
     # spawned already or not
     spawned = False
 
     # TODO: Consider going all out defence eventually
     # TODO: Consider just attacking like this xx_xx_xx. so those isolated areas we can target easily later
-    # if taken 5 lanes already, go all in on some lanes
-    if (lanesTaken >= 5):
+    # if taken 6 lanes already, go all in on some lanes if other lanes have at least 2 pawns
+    if (lanesTaken >= 6 and minCols[0][1] >= 2):
         # calculate best place to go all in on
-        # prefer edge of taken lanes that has 3 spaces available
-        if (highestTakenLane < board_size - 3):
+        # prefer edge of taken lanes that has 2 spaces available
+        if (highestTakenLane < board_size - 2):
             attackableLanes.clear()
+            attackableLanes.add(highestTakenLane)
             attackableLanes.add(highestTakenLane + 1)
             attackableLanes.add(highestTakenLane + 2)
-            attackableLanes.add(highestTakenLane + 3)
-        elif (lowestTakenLane > 3):
+        elif (lowestTakenLane > 2):
             attackableLanes.clear()
+            attackableLanes.add(lowestTakenLane)
             attackableLanes.add(lowestTakenLane - 1)
             attackableLanes.add(lowestTakenLane - 2)
-            attackableLanes.add(lowestTakenLane - 3)
 
     # target some weak lanes as long as our other lanes have at least 2 pawns
     elif (turn >= 50 and minCols[0][1] >= 2):
+        # target weak lanes of which we haven't won yet
+
+        attackableMinEnemyCols = []
+        for i in range(len(minEnemyCols)):
+            colIndex = int(minEnemyCols[i][0])
+            if colIndex in attackableLanes:
+                attackableMinEnemyCols.append(minEnemyCols[i])
+
         attackableLanes.clear()
         # target the lane where we have the most pawns and they have the least, calculate a delta
-        weakIndex = int(minEnemyCols[0][0])
+        weakIndex = int(attackableMinEnemyCols[0][0])
         # highestDifference = -1000
         # for i in range(board_size):
         #     diff = 0
@@ -115,11 +125,11 @@ def run():
             attackableLanes.add(weakIndex)
             attackableLanes.add(weakIndex-1)
             attackableLanes.add(weakIndex-2)
-    # place pawns on columns with least units
+    
+    # Place pawns on the column with least units and is still attackable
     for i in range(len(minCols)):
         spind = int(minCols[i][0])
         if spind in attackableLanes:
-            dlog(str(spind))
             if (not check_space(index, spind) and not willGetCaptured(board, index, spind)):
                 
                 spawn(index, spind)
@@ -130,7 +140,7 @@ def run():
     if spawned:
         return
 
-    # if haven't spawned yet, revert to line spawning
+    # if haven't spawned yet, revert to line spawning to spawn anywhere we can that's atttackable
     # the index we are trying to start spawning on
     beginSpawn = spawnIndex
     while (True):
