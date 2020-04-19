@@ -39,10 +39,14 @@ def run():
     sensed = sense()
     # form a set
     sensedEnemiesSet = set()
+    friends = set()
 
     for row2, col2, team in sensed:
         if (team == opp_team):
             sensedEnemiesSet.add(row2 * board_size + col2)
+        else:
+            friends.add(row2 * board_size + col2)
+
 
     # for hash in sensedEnemiesSet:
         # dlog("===Found enemy at " + str(hash // board_size) + ", " + str(hash % board_size) + " | HASH: " + str(hash))
@@ -63,24 +67,13 @@ def run():
             # if not capturable position
             if not canGetCaptured(row + forward, col, sensedEnemiesSet, forward):
                 if not check_space_wrapper(row + forward, col, board_size):
-                    # dlog("can move forward to " + str(row + forward) + ", " + str(col))
-                    move_forward()
-                    movedForward = True
-
-
-    # if not movedForward:
-    #     # try catpuring pieces
-    #     if check_space_wrapper(row + forward, col + 1, board_size) == opp_team:
-    #             capture(row + forward, col + 1)
-    #             dlog('Captured at: (' + str(row + forward) + ', ' + str(col + 1) + ')')
-
-    #     elif check_space_wrapper(row + forward, col - 1, board_size) == opp_team:
-    #             capture(row + forward, col - 1)
-    #             dlog('Captured at: (' + str(row + forward) + ', ' + str(col - 1) + ')')
-        
-
-        # confusion = "you need a line here to avoid segfault. we aren't sure why but are working on it"
-    # ^ I think this is related to the potential ambiguity of what the following else is referring to?
+                    # move forward if pawn to ur left or right
+                    # if ((row * board_size + col - 1) in friends or (row * board_size + col + 1) in friends) or row <= 2:
+                    #     move_forward()
+                    #     movedForward = True
+                    if (row <= 2):
+                        move_forward()
+                        movedForward = True
 
 def canGetCaptured(row3, col3, sensedEnemiesSet, forward):
     global board_size

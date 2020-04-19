@@ -7,7 +7,7 @@ import pawn
 # This is an example bot written by the developers!
 # Use this to help write your own code, or run it against your bot to see how well you can do!
 
-DEBUG = 0
+DEBUG = 1
 def dlog(s):
     if DEBUG > 0:
         log(s)
@@ -28,20 +28,10 @@ def turn():
     This function will be called at the beginning of every turn and should contain the bulk of your robot commands
     """
     turnnum += 1
-    msg = 'Turns alive: &#95; ' + str(turnnum)
-    dlog("Type: " + str(isinstance(set(), set)))
-    # for k, arr in enumerate(arrays):
-    #     dlog(k)
-    # dlog(hex(id(SYSTEM)) + " , " + hex(id(FWRITE)))
     robottype = get_type()
 
     if robottype == RobotType.PAWN:
         pawn.run()
-        pass
     else:
         overlord.run()
-        pass
-
-    bytecode = get_bytecode()
-    dlog('Bytecode left: ' + str(bytecode))
 
