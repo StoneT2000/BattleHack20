@@ -119,7 +119,6 @@ def run():
     for i in range(len(minCols)):
         spind = int(minCols[i][0])
         if spind in attackableLanes:
-            dlog(str(spind))
             if (not check_space(index, spind) and not willGetCaptured(board, index, spind)):
                 
                 spawn(index, spind)

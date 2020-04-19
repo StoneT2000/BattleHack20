@@ -113,9 +113,21 @@ def run():
     # unintentionally causes col 0 and 15 to be passive, good behavior
     if (nearPawnsBehind >= 5): 
         hasSupport = True
+    
     # if near end row, be a little more reckless
-    if (abs(row - endIndex) <= 3):
+    distToEnd = abs(row - endIndex)
+    if (distToEnd <= 3):
         if (nearPawnsBehind >= 4):
+            hasSupport = True
+    # if there is a pawn ahead at this point, then it is like this
+    """
+    endrow:     _ o _ _ _
+                _ c _ _ _
+                _ c x _ _
+                _ c c _ _
+    """
+    if (distToEnd <= 2):
+        if (nearPawnsBehind >= 3 and pawnsAhead >= 1):
             hasSupport = True
 
     # try catpuring pieces
