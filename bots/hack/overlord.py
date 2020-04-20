@@ -34,6 +34,9 @@ def run():
     turn = turn + 1
     board = get_board()
 
+
+    bytecode = get_bytecode()
+    dlog("I have " + str(bytecode) + " at " + hex(id(bytecode)));
     spawnRow = board[index]
     endRow = board[endIndex]
     
