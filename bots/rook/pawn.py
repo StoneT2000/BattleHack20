@@ -116,9 +116,18 @@ def run():
             
     # determine if the pawn has enough support to be reckless
     # if enough pawns right behind that cup this pawn, go forward
-    # unintentionally causes col 0 and 15 to be passive, good behavior
-    if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 8): 
-        hasSupport = True
+    # if (col >= 2 and col <= board_size - 3):
+        if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 8): 
+            if pawnsBehind >= 10:
+                hasSupport = True
+    # elif (col == 1 or col == board_size - 2):
+    #     if nearPawnsBehind >= 5 and pawnsNearColBehind >= 8 and pawnsBehind >= 9:
+    #         hasSupport = True
+    # if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 8): 
+    #     hasSupport = True
+    # else:
+    #     if nearPawnsBehind >= 3 and pawnsNearColBehind >= 5 and pawnsBehind >= 7:
+    #         hasSupport = True
     
     # if near end row, be a little more reckless
     distToEnd = abs(row - endIndex)
@@ -136,6 +145,10 @@ def run():
         if (nearPawnsBehind >= 3 and pawnsAhead >= 1):
             hasSupport = True
 
+    # if see friend 2 spaces forward, and has 1 friends right behind same col
+    # if (posInSet(friends, row + forward * 2, col) and posInSet(friends, row - forward, col)):
+    #     hasSupport = True
+
     # """ Go forward if this and near end
     #   _ _ c
     #   _ x c 
@@ -145,15 +158,23 @@ def run():
     # if posInSet(friends, row - forward, col + 1) and posInSet(friends, row - forward, col) and posInSet(friends, row - forward, col - 1) and posInSet(friends, row - forward * 2, col + 1) and posInSet(friends, row - forward * 2, col - 1) and posInSet(friends, row - forward * 2, col) and nearPawnsBehind >= 4 and (posInSet(friends, row + forward, col + 1) or posInSet(friends, row + forward, col + 1)) and distToEnd <= 4:
     #     hasSupport = True
 
-    # try catpuring pieces
+    
+
     if check_space_wrapper(row + forward, col + 1, board_size) == opp_team:
         capture(row + forward, col + 1)
     elif check_space_wrapper(row + forward, col - 1, board_size) == opp_team:
         capture(row + forward, col - 1)
     else:
+        # try to advance and gain ground if we are behind the half
+        advance = True
+        # if (forward == 1 and row < board_size / 2):
+        #     advance = True
+        # elif forward == -1 and row > board_size / 2:
+        #     advance = True
+
         # if moving forward is not a capturable position or has enough pawn support, try to go forward
         badPos = canGetCaptured(row + forward, col, sensedEnemiesSet, forward)
-        if (not badPos) or hasSupport:
+        if (not badPos) or (hasSupport and advance):
             if inBoard(row + forward, col, board_size):
                 if not check_space(row + forward, col):
                     move_forward()

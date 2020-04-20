@@ -1,0 +1,312 @@
+[Game info] Seed: 1337
+[Game info] Turn 1
+[Game info] Queue: {}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('0', 0), ('1', 0), ('2', 0), ('3', 0), ('4', 0), ('5', 0), ('6', 0), ('7', 0), ('8', 0), ('9', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('0', 0), ('1', 0), ('2', 0), ('3', 0), ('4', 0), ('5', 0), ('6', 0), ('7', 0), ('8', 0), ('9', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 2
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('3', 0), ('4', 0), ('5', 0), ('6', 0), ('7', 0), ('8', 0), ('9', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('3', 0), ('4', 0), ('5', 0), ('6', 0), ('7', 0), ('8', 0), ('9', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 3
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('6', 0), ('7', 0), ('8', 0), ('9', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1), ('3', 1)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('6', 0), ('7', 0), ('8', 0), ('9', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1), ('3', 1)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 4
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('9', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1), ('3', 1), ('6', 1)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('9', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1), ('3', 1), ('6', 1)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 5
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1), ('3', 1), ('6', 1), ('9', 1)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('12', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1), ('3', 1), ('6', 1), ('9', 1)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 6
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1), ('3', 1), ('6', 1), ('9', 1), ('12', 1)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('15', 0), ('0', 1), ('3', 1), ('6', 1), ('9', 1), ('12', 1)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 7
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('0', 1), ('3', 1), ('6', 1), ('9', 1), ('12', 1), ('15', 1)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('0', 1), ('3', 1), ('6', 1), ('9', 1), ('12', 1), ('15', 1)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 8
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('3', 1), ('6', 1), ('9', 1), ('12', 1), ('15', 1), ('0', 2)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('3', 1), ('6', 1), ('9', 1), ('12', 1), ('15', 1), ('0', 2)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 9
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('6', 1), ('9', 1), ('12', 1), ('15', 1), ('0', 2), ('3', 2)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('6', 1), ('9', 1), ('12', 1), ('15', 1), ('0', 2), ('3', 2)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 10
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('9', 1), ('12', 1), ('15', 1), ('0', 2), ('3', 2), ('6', 2)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('9', 1), ('12', 1), ('15', 1), ('0', 2), ('3', 2), ('6', 2)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 11
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('12', 1), ('15', 1), ('0', 2), ('3', 2), ('6', 2), ('9', 2)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('12', 1), ('15', 1), ('0', 2), ('3', 2), ('6', 2), ('9', 2)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 12
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('15', 1), ('0', 2), ('3', 2), ('6', 2), ('9', 2), ('12', 2)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('15', 1), ('0', 2), ('3', 2), ('6', 2), ('9', 2), ('12', 2)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 13
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('0', 2), ('3', 2), ('6', 2), ('9', 2), ('12', 2), ('15', 2)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('0', 2), ('3', 2), ('6', 2), ('9', 2), ('12', 2), ('15', 2)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 14
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('3', 2), ('6', 2), ('9', 2), ('12', 2), ('15', 2), ('0', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('3', 2), ('6', 2), ('9', 2), ('12', 2), ('15', 2), ('0', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 15
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('6', 2), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('6', 2), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 16
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 0), ('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 17
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('2', 0), ('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 18
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('4', 0), ('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 19
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('5', 0), ('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 20
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('7', 0), ('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 21
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('8', 0), ('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 22
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>, 42: <ROBOT 42 WHITE>, 43: <ROBOT 43 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('10', 0), ('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 23
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>, 42: <ROBOT 42 WHITE>, 43: <ROBOT 43 BLACK>, 44: <ROBOT 44 BLACK>, 45: <ROBOT 45 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('11', 0), ('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 24
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>, 42: <ROBOT 42 WHITE>, 43: <ROBOT 43 BLACK>, 44: <ROBOT 44 BLACK>, 45: <ROBOT 45 WHITE>, 46: <ROBOT 46 WHITE>, 47: <ROBOT 47 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('13', 0), ('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 25
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>, 42: <ROBOT 42 WHITE>, 43: <ROBOT 43 BLACK>, 44: <ROBOT 44 BLACK>, 45: <ROBOT 45 WHITE>, 46: <ROBOT 46 WHITE>, 47: <ROBOT 47 BLACK>, 48: <ROBOT 48 BLACK>, 49: <ROBOT 49 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('13', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('14', 0), ('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('13', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 26
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>, 42: <ROBOT 42 WHITE>, 43: <ROBOT 43 BLACK>, 44: <ROBOT 44 BLACK>, 45: <ROBOT 45 WHITE>, 46: <ROBOT 46 WHITE>, 47: <ROBOT 47 BLACK>, 48: <ROBOT 48 BLACK>, 49: <ROBOT 49 WHITE>, 50: <ROBOT 50 WHITE>, 51: <ROBOT 51 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('13', 1), ('14', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('1', 1), ('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('13', 1), ('14', 1), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 27
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>, 42: <ROBOT 42 WHITE>, 43: <ROBOT 43 BLACK>, 44: <ROBOT 44 BLACK>, 45: <ROBOT 45 WHITE>, 46: <ROBOT 46 WHITE>, 47: <ROBOT 47 BLACK>, 48: <ROBOT 48 BLACK>, 49: <ROBOT 49 WHITE>, 50: <ROBOT 50 WHITE>, 51: <ROBOT 51 BLACK>, 52: <ROBOT 52 BLACK>, 53: <ROBOT 53 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('13', 1), ('14', 1), ('1', 2), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('2', 1), ('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('13', 1), ('14', 1), ('1', 2), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 28
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>, 42: <ROBOT 42 WHITE>, 43: <ROBOT 43 BLACK>, 44: <ROBOT 44 BLACK>, 45: <ROBOT 45 WHITE>, 46: <ROBOT 46 WHITE>, 47: <ROBOT 47 BLACK>, 48: <ROBOT 48 BLACK>, 49: <ROBOT 49 WHITE>, 50: <ROBOT 50 WHITE>, 51: <ROBOT 51 BLACK>, 52: <ROBOT 52 BLACK>, 53: <ROBOT 53 WHITE>, 54: <ROBOT 54 WHITE>, 55: <ROBOT 55 BLACK>}
+[Game info] Lords: [<ROBOT BLACK HQ BLACK>, <ROBOT WHITE HQ WHITE>]
+[Robot BLACK HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot BLACK HQ log] minCols: [('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('13', 1), ('14', 1), ('1', 2), ('2', 2), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot BLACK HQ log] minEnemyCols: []
+[Robot BLACK HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Robot WHITE HQ log] Attackable: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+[Robot WHITE HQ log] minCols: [('4', 1), ('5', 1), ('7', 1), ('8', 1), ('10', 1), ('11', 1), ('13', 1), ('14', 1), ('1', 2), ('2', 2), ('9', 2), ('12', 2), ('15', 2), ('0', 3), ('3', 3), ('6', 3)]
+[Robot WHITE HQ log] minEnemyCols: []
+[Robot WHITE HQ log] High: 0 | Low: 16 | Lanes Taken: 0
+[Game info] Turn 29
+[Game info] Queue: {2: <ROBOT 2 WHITE>, 3: <ROBOT 3 BLACK>, 4: <ROBOT 4 BLACK>, 5: <ROBOT 5 WHITE>, 6: <ROBOT 6 WHITE>, 7: <ROBOT 7 BLACK>, 8: <ROBOT 8 BLACK>, 9: <ROBOT 9 WHITE>, 10: <ROBOT 10 WHITE>, 11: <ROBOT 11 BLACK>, 12: <ROBOT 12 BLACK>, 13: <ROBOT 13 WHITE>, 14: <ROBOT 14 WHITE>, 15: <ROBOT 15 BLACK>, 16: <ROBOT 16 BLACK>, 17: <ROBOT 17 WHITE>, 18: <ROBOT 18 WHITE>, 19: <ROBOT 19 BLACK>, 20: <ROBOT 20 BLACK>, 21: <ROBOT 21 WHITE>, 22: <ROBOT 22 WHITE>, 23: <ROBOT 23 BLACK>, 24: <ROBOT 24 BLACK>, 25: <ROBOT 25 WHITE>, 26: <ROBOT 26 WHITE>, 27: <ROBOT 27 BLACK>, 28: <ROBOT 28 BLACK>, 29: <ROBOT 29 WHITE>, 30: <ROBOT 30 WHITE>, 31: <ROBOT 31 BLACK>, 32: <ROBOT 32 BLACK>, 33: <ROBOT 33 WHITE>, 34: <ROBOT 34 WHITE>, 35: <ROBOT 35 BLACK>, 36: <ROBOT 36 BLACK>, 37: <ROBOT 37 WHITE>, 38: <ROBOT 38 WHITE>, 39: <ROBOT 39 BLACK>, 40: <ROBOT 40 BLACK>, 41: <ROBOT 41 WHITE>, 42: <ROBOT 42 WHITE>, 43: <ROBOT 43 BLACK>, 44: <ROBOT 44 BLACK>, 45: <ROBOT 45 WHITE>, 46: <ROBOT 46 WHITE>, 47: <ROBOT 47 BLACK>, 48: <ROBOT 48 BLACK>, 49: <ROBOT 49 WHITE>, 50: <ROBOT 50 WHITE>, 51: <ROBOT 51 BLACK>, 52: <ROBOT 52 BLACK>, 53: <ROBOT 53 WHITE>, 54: <ROBOT 54 WHITE>, 55: <ROBOT 55 BLACK>, 56: <ROBOT 56 BLACK>, 57: <ROBOT 57 WHITE>}
+[Game info] Lords: [<ROBOT WHITE HQ WHITE>, <ROBOT BLACK HQ BLACK>]
