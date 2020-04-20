@@ -30,6 +30,12 @@
             <div class="slidecontainer">
               <input type="range" min="1" max="1" value="0" class="slider" id="myRange" style="width: calc(100% - 40px); max-width: 100%">
             </div>
+            <div>
+                <p>White Pawns: <span id='whitepawns'>0</span></p>
+            </div>
+            <div>
+                <p>Black Pawns: <span id='blackpawns'>0</span></p>
+            </div>
 
             <br>
         </div>
@@ -72,6 +78,8 @@
                 context.textBaseline = 'middle';
 
                 var frame = frames[roundNum];
+                var blackPawns = 0;
+                var whitePawns = 0;
                 for (var i = 0; i < frameHeight; i++) {
                     for (var j = 0; j < frameWidth; j++) {
                         var x = outerPadding + i * innerPadding + i * squareSize;
@@ -88,8 +96,11 @@
                             }
                         } else if (frame[i][j][0] == "W") {
                             context.fillStyle = WHITE;
+                            whitePawns++;
+
                         } else if (frame[i][j][0] == "B") {
                             context.fillStyle = BLACK;
+                            blackPawns++;
                         }
                         context.fill();
 
@@ -101,6 +112,8 @@
                         }
                     }
                 }
+                document.getElementById("whitepawns").innerHTML = whitePawns
+                document.getElementById("blackpawns").innerHTML = blackPawns
             }
 
             var fileInput = document.getElementById("file-input");
@@ -159,6 +172,7 @@
 
 
                 var readFrames = [[]];
+                var unitCounts = []
                 var fIndex = 1;
                 while (true) {
                     if (lines[index].substring(0, 4) == "Team") {
@@ -184,7 +198,7 @@
                 }
                 console.log("Read " + readFrames.length + " frames");
                 console.log("Winner: " + winner)
-                return readFrames;
+                return readFrames
             }
 
             var prevRoundButton = document.getElementById("prev-round-button");

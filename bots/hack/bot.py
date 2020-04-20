@@ -44,7 +44,7 @@ log (str())
 def turn():
     global turnnum
     
-    random['seed']
+
     
     """
     MUST be defined for robot to run
