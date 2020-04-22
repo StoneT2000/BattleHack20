@@ -127,13 +127,14 @@ def run():
     # closer you are to end, less reckless you are
     distToSpawn = abs(row - index)
     distToEnd = abs(row - endIndex)
-    # if distToEnd <= 8:
     if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 8): 
         if pawnsBehind >= 10:
             hasSupport = True
-    # if (distToEnd > 8):
-    #     if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 8): 
-    #         hasSupport = True
+
+    # we use weak support when theres only 1 enemy that can capture us ONLY
+    hasWeakSupport = False
+    if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 7): 
+        hasWeakSupport = True
 
     # if near end row, be a little more reckless
     if (distToEnd <= 3):
@@ -183,7 +184,7 @@ def run():
         # or has enough pawn support and we are on our half after 25 rounds - we assume we always have positive 
         # pawn differential using this heuristic, so by then we will dominate and get back to half + 1
         enemiesThatCanCapture = canGetCaptured(row + forward, col, sensedEnemiesSet, forward)
-        if (enemiesThatCanCapture == 0) or (hasSupport and (enemiesThatCanCapture != 2 or (turnsWithEnemyOnOurHalf >= 80))):
+        if (enemiesThatCanCapture == 0) or (hasSupport and ((turnsWithEnemyOnOurHalf >= 80)) or (hasWeakSupport and enemiesThatCanCapture != 2)):
             if inBoard(row + forward, col, board_size):
                 if not check_space(row + forward, col):
                     move_forward()
