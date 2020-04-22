@@ -208,7 +208,7 @@ def run():
     # Place pawns on the column with least units and is marked attackable
     for i in range(len(minCols)):
         spind = int(minCols[i][0])
-        if (turn >= 16):
+        if (turn >= 7):
             if spind in attackableLanes:
                 if (not check_space(index, spind) and not willGetCaptured(board, index, spind)):
                     

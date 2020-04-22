@@ -34,10 +34,9 @@ turnsWithEnemyOnOurHalf = 0
 
 
 # TODO:
-# Make pawns stop at 2nd to last row, maximize capturing for weaker bots
-#   Means we need to make overlord consider pawns at 2nd to last row to be ones that reach end already
 # Make pawns use pawns ahead of them as scouts. We assume that every pawn ahead of us has no enemies that can capture 
 # it directly
+# Make spawning directed at rows where we will
 def run():
     global team, endIndex, index, board_size, opp_team, forward, turnsWithEnemyOnOurHalf
     row, col = get_location()
@@ -92,7 +91,7 @@ def run():
     for row2, col2, team in sensed:
         if (team == opp_team):
             sensedEnemiesSet.add(row2 * board_size + col2)
-            if (abs(row2 - index) <= board_size / 2):
+            if (abs(row2 - index) < board_size / 2):
                 enemyOnOurHalf = True
         else:
             friends.add(row2 * board_size + col2)
@@ -184,7 +183,7 @@ def run():
         # or has enough pawn support and we are on our half after 25 rounds - we assume we always have positive 
         # pawn differential using this heuristic, so by then we will dominate and get back to half + 1
         enemiesThatCanCapture = canGetCaptured(row + forward, col, sensedEnemiesSet, forward)
-        if (enemiesThatCanCapture == 0) or (hasSupport and (turnsWithEnemyOnOurHalf >= 80) and enemiesThatCanCapture != 2) or (hasWeakSupport and enemiesThatCanCapture != 2):
+        if (enemiesThatCanCapture == 0) or (hasWeakSupport and enemiesThatCanCapture != 2):
             if inBoard(row + forward, col, board_size):
                 if not check_space(row + forward, col):
                     move_forward()
