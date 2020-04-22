@@ -127,13 +127,13 @@ def run():
     # closer you are to end, less reckless you are
     distToSpawn = abs(row - index)
     distToEnd = abs(row - endIndex)
-    # if distToEnd <= 8:
-    if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 8): 
-        if pawnsBehind >= 10:
+    if distToEnd <= 8:
+        if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 8): 
+            if pawnsBehind >= 10:
+                hasSupport = True
+    if (distToEnd > 8):
+        if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 7): 
             hasSupport = True
-    # if (distToEnd > 8):
-    #     if (nearPawnsBehind >= 5 and pawnsNearColBehind >= 8): 
-    #         hasSupport = True
 
     # if near end row, be a little more reckless
     if (distToEnd <= 3):
