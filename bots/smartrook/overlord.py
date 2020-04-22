@@ -244,6 +244,18 @@ def run():
             # if we wrapped around for spawn indexes, stop
             if sindex == beginSpawn:
                 break
+
+    # still no spawn? try all columns
+    if not spawned:
+        sindex = 0
+        while (True):
+            if (not check_space(index, sindex) and not willGetCaptured(board, index, sindex)):
+                spawn(index, sindex)
+                spawned = True
+                break
+            sindex = sindex + 1
+            if (sindex == board_size):
+                break
         
 # get the next spawning index
 def getNextSpawnIndex():
