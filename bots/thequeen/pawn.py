@@ -30,6 +30,7 @@ else:
     index = board_size - 1
     endIndex = 0
 
+turnsWithEnemyOnOurHalf = 0
 
 # TODO:
 # Make pawns stop at 2nd to last row, maximize capturing for weaker bots
@@ -37,7 +38,7 @@ else:
 # Make pawns use pawns ahead of them as scouts. We assume that every pawn ahead of us has no enemies that can capture 
 # it directly
 def run():
-    global team, endIndex, index, board_size, opp_team, forward
+    global team, endIndex, index, board_size, opp_team, forward, turnsWithEnemyOnOurHalf
     row, col = get_location()
     
     
@@ -84,10 +85,14 @@ def run():
     # this means me needs to gtfo of this line
     pawnAtEndRowOfSameLine = False
 
+    enemyOnOurHalf = False
+
     # add hashes of enemy locations in vision
     for row2, col2, team in sensed:
         if (team == opp_team):
             sensedEnemiesSet.add(row2 * board_size + col2)
+            if (abs(row2 - index) <= board_size):
+                enemyOnOurHalf = True
         else:
             friends.add(row2 * board_size + col2)
             # count number of pawns behind and ahead
@@ -161,23 +166,34 @@ def run():
 
     
 
+    # capture if possible and if captuing => u won't get captured without immediate capture back
     if check_space_wrapper(row + forward, col + 1, board_size) == opp_team:
+        # enemiesThatCanCapture = canGetCaptured(row + forward, col + 1, sensedEnemiesSet, forward)
+        # supportingUnits = supportingUnitsAt(row + forward, col + 1, friends, forward)
+        # if (supportingUnits >= enemiesThatCanCapture - 1):
         capture(row + forward, col + 1)
     elif check_space_wrapper(row + forward, col - 1, board_size) == opp_team:
+        # enemiesThatCanCapture = canGetCaptured(row + forward, col - 1, sensedEnemiesSet, forward)
+        # supportingUnits = supportingUnitsAt(row + forward, col + 1, friends, forward)
+        # if (supportingUnits >= enemiesThatCanCapture - 1):
         capture(row + forward, col - 1)
     else:
 
         # if moving forward has no enemies that can capture it 
         # or has enough pawn support and enemiesThatCanCapture != 2
-        # or has enough pawn support and we are on our half - we assume we always have positive 
+        # or has enough pawn support and we are on our half after 25 rounds - we assume we always have positive 
         # pawn differential using this heuristic, so by then we will dominate and get back to half + 1
         enemiesThatCanCapture = canGetCaptured(row + forward, col, sensedEnemiesSet, forward)
-        if (enemiesThatCanCapture == 0) or (hasSupport and (enemiesThatCanCapture != 2 or distToSpawn <= board_size)):
+        if (enemiesThatCanCapture == 0) or (hasSupport and (enemiesThatCanCapture != 2 or (turnsWithEnemyOnOurHalf >= 80))):
             if inBoard(row + forward, col, board_size):
                 if not check_space(row + forward, col):
                     move_forward()
                     movedForward = True
 
+    if (enemyOnOurHalf):
+        turnsWithEnemyOnOurHalf = turnsWithEnemyOnOurHalf + 1
+    else:
+        turnsWithEnemyOnOurHalf = 0
 
 def canGetCaptured(row3, col3, sensedEnemiesSet, forward):
     global board_size
@@ -188,6 +204,14 @@ def canGetCaptured(row3, col3, sensedEnemiesSet, forward):
     if (hash_part + col3 + 1) in sensedEnemiesSet:
         badPositions = badPositions + 1
     return badPositions
+
+def supportingUnitsAt(row3, col3, friendsSet, foward):
+    total = 0
+    if (posInSet(friendsSet, row3 + forward, col3 - 1)):
+        total = total + 1
+    if (posInSet(friendsSet, row3 + forward, col3 + 1)):
+        total = total + 1
+    return total
 
 def inBoard(r, c, board_size):
     if r < 0 or c < 0 or c >= board_size or r >= board_size:

@@ -171,7 +171,7 @@ def run():
         # or has enough pawn support and enemiesThatCanCapture != 2
         # or has enough pawn support and we are on our half - we assume we always have positive 
         # pawn differential using this heuristic, so by then we will dominate and get back to half + 1
-        enemiesThatCanCapture = canGetCaptured(row + forward, col, sensedEnemiesSet, forward)
+        enemiesThatCanCapture = canGetCaptured(row + forward, col, sensedEnemiesSet, forward)   
         if (enemiesThatCanCapture == 0) or (hasSupport and (enemiesThatCanCapture != 2)):
             if inBoard(row + forward, col, board_size):
                 if not check_space(row + forward, col):
