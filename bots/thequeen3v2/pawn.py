@@ -184,7 +184,7 @@ def run():
         # or has enough pawn support and we are on our half after 25 rounds - we assume we always have positive 
         # pawn differential using this heuristic, so by then we will dominate and get back to half + 1
         enemiesThatCanCapture = canGetCaptured(row + forward, col, sensedEnemiesSet, forward)
-        if (enemiesThatCanCapture == 0) or (hasSupport and (turnsWithEnemyOnOurHalf >= 80 or enemiesThatCanCapture != 2)) or (hasWeakSupport and enemiesThatCanCapture != 2):
+        if (enemiesThatCanCapture == 0) or (hasSupport and (turnsWithEnemyOnOurHalf >= 80) and enemiesThatCanCapture != 2) or (hasWeakSupport and enemiesThatCanCapture != 2):
             if inBoard(row + forward, col, board_size):
                 if not check_space(row + forward, col):
                     move_forward()
