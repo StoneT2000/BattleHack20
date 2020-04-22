@@ -122,7 +122,9 @@ def run():
 
     # determine if all lanes are in our favor / we have more units than they could ever possibly have * constant
     atAdvantage = True
-    if (minCols[0][1] < 4):
+    if (minCols[0][1] < 2 and turn <= 100):
+        atAdvantage = False
+    if (minCols[0][1] < 3 and turn > 100):
         atAdvantage = False
 
     # if (closestDistToEnd <= 7 and minCols[0][1] < 4):
@@ -189,6 +191,23 @@ def run():
         #     if (diff > highestDifference):
         #         weakIndex = i
 
+        # find which lanes have units not moving because they can get captured but its only 1 unit and so more support there will win us it
+
+        for i in range(len(furthestRow)):
+            rowNum = furthestRow[i]
+            if (i > 1 and i < board_size - 1):
+                # check rowNum + forward * 2, col +/- 1
+                enemiesThatCanCapture = 0
+                if check_space(rowNum + forward * 2, i - 1) == opp_team:
+                    enemiesThatCanCapture = enemiesThatCanCapture + 1
+                if check_space(rowNum + forward * 2, i + 1) == opp_team:
+                    enemiesThatCanCapture = enemiesThatCanCapture + 1
+                
+                if (enemiesThatCanCapture == 1):
+                    weakIndex = i
+                    break
+
+
         if (weakIndex < board_size - 1 and weakIndex > 0):
             attackableLanes.add(weakIndex - 1)
             attackableLanes.add(weakIndex)
@@ -208,7 +227,7 @@ def run():
     # Place pawns on the column with least units and is marked attackable
     for i in range(len(minCols)):
         spind = int(minCols[i][0])
-        if (turn >= 7):
+        if (turn >= 13):
             if spind in attackableLanes:
                 if (not check_space(index, spind) and not willGetCaptured(board, index, spind)):
                     

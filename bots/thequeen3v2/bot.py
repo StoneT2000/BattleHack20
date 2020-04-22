@@ -34,4 +34,3 @@ def turn():
         pawn.run()
     else:
         overlord.run()
-
