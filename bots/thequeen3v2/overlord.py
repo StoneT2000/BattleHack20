@@ -195,15 +195,15 @@ def run():
 
         for i in range(len(furthestRow)):
             rowNum = furthestRow[i]
-            if (i > 1 and i < board_size - 1):
+            if (i > 0 and i < board_size - 1):
                 # check rowNum + forward * 2, col +/- 1
                 enemiesThatCanCapture = 0
                 if check_space(rowNum + forward * 2, i - 1) == opp_team:
                     enemiesThatCanCapture = enemiesThatCanCapture + 1
                 if check_space(rowNum + forward * 2, i + 1) == opp_team:
                     enemiesThatCanCapture = enemiesThatCanCapture + 1
-                
-                if (enemiesThatCanCapture == 1):
+                friendPawnsNearCol = friendCountsPerCol[str(i)] + friendCountsPerCol[str(i+1)] + friendCountsPerCol[str(i-1)]
+                if (enemiesThatCanCapture == 1 and friendPawnsNearCol <= 15):
                     weakIndex = i
                     break
 
@@ -227,7 +227,7 @@ def run():
     # Place pawns on the column with least units and is marked attackable
     for i in range(len(minCols)):
         spind = int(minCols[i][0])
-        if (turn >= 13):
+        if (turn >= 16):
             if spind in attackableLanes:
                 if (not check_space(index, spind) and not willGetCaptured(board, index, spind)):
                     

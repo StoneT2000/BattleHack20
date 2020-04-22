@@ -150,9 +150,9 @@ def run():
         if (nearPawnsBehind >= 3 and pawnsAhead >= 1):
             hasSupport = True
 
-    # if see friend 2 spaces forward, and has 1 friends right behind same col
-    # if (posInSet(friends, row + forward * 2, col + 1) or posInSet(friends, row + forward * 2, col - 1)):
-    #     hasSupport = True
+    # if see friend 2 spaces forward, and has friends diagonally adjacent
+    if (posInSet(friends, row + forward * 2, col) and posInSet(friends, row + forward, col + 1) and posInSet(friends, row + forward, col - 1)):
+        hasSupport = True
 
     # """ Go forward if this and near end
     #   _ _ c
@@ -163,8 +163,12 @@ def run():
     # if posInSet(friends, row - forward, col + 1) and posInSet(friends, row - forward, col) and posInSet(friends, row - forward, col - 1) and posInSet(friends, row - forward * 2, col + 1) and posInSet(friends, row - forward * 2, col - 1) and posInSet(friends, row - forward * 2, col) and nearPawnsBehind >= 4 and (posInSet(friends, row + forward, col + 1) or posInSet(friends, row + forward, col + 1)) and distToEnd <= 4:
     #     hasSupport = True
 
-    
+    # shouldCapture = True
 
+    # # don't capture if we are supported and need to take up a particular spot
+    # if posInSet(friends, row - forward, col + 1) and posInSet(friends, row - forward, col -1):
+    #     if 
+    
     # capture if possible and if captuing => u won't get captured without immediate capture back
     if check_space_wrapper(row + forward, col + 1, board_size) == opp_team:
         # enemiesThatCanCapture = canGetCaptured(row + forward, col + 1, sensedEnemiesSet, forward)
@@ -183,7 +187,7 @@ def run():
         # or has enough pawn support and we are on our half after 25 rounds - we assume we always have positive 
         # pawn differential using this heuristic, so by then we will dominate and get back to half + 1
         enemiesThatCanCapture = canGetCaptured(row + forward, col, sensedEnemiesSet, forward)
-        if (enemiesThatCanCapture == 0) or (hasSupport and (turnsWithEnemyOnOurHalf >= 150 or enemiesThatCanCapture != 2)) or (hasWeakSupport and enemiesThatCanCapture != 2):
+        if (enemiesThatCanCapture == 0) or (hasSupport and (turnsWithEnemyOnOurHalf >= 80 or enemiesThatCanCapture != 2)) or (hasWeakSupport and enemiesThatCanCapture != 2):
             if inBoard(row + forward, col, board_size):
                 if not check_space(row + forward, col):
                     move_forward()
