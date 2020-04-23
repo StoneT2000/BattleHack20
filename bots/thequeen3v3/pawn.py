@@ -151,7 +151,7 @@ def run():
             hasSupport = True
 
     # if see friend 2 spaces forward, and has friends diagonally adjacent
-    if (posInSet(friends, row + forward * 2, col) and posInSet(friends, row + forward, col + 1) and posInSet(friends, row + forward, col - 1)):
+    if (posInSet(friends, row + forward * 2, col) and posInSet(friends, row, col + 1) and posInSet(friends, row, col - 1)):
         hasSupport = True
 
     # """ Go forward if this and near end
@@ -165,10 +165,10 @@ def run():
 
     shouldCapture = True
 
-    # don't capture if we are supported and we have no one behind us to come in
-    if posInSet(friends, row - forward, col + 1) and posInSet(friends, row - forward, col -1):
-        if not posInSet(friends, row - forward, col):
-            shouldCapture = False
+    # # # don't capture if we are supported and we have no one behind us to come in or someone ahead for ahead support
+    # if posInSet(friends, row - forward, col + 1) and posInSet(friends, row - forward, col -1):
+    #     if not posInSet(friends, row - forward, col) and not posInSet(friends, row + forward, col):
+    #         shouldCapture = False
     
     # capture if possible and if captuing => u won't get captured without immediate capture back
     if shouldCapture and check_space_wrapper(row + forward, col + 1, board_size) == opp_team:

@@ -4,7 +4,7 @@ import faulthandler
 import sys
 import threading
 
-sys.path.insert(1, 'battlehack20/engine');
+# sys.path.insert(1, 'battlehack20/engine');
 from battlehack20 import CodeContainer, Game, BasicViewer, GameConstants
 
 """
