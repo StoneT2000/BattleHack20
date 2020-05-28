@@ -1,6 +1,6 @@
 # BattleHack 2020 Bot - ILikeBracketsOverTabs
 
-This is the code for my battlehack 2020 bot hosted by [Battlecode](https://battlecode.org)
+This is the code for my battlehack 2020 bot hosted by [Battlecode](https://battlecode.org), it got 2nd
 
 Clearly, you can tell I don't like tabbing in python.
 
